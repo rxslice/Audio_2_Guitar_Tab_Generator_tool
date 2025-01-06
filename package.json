@@ -1,0 +1,32 @@
+{
+      "name": "audio-to-tablature",
+      "private": true,
+      "version": "0.0.0",
+      "type": "module",
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "package": "pkg ."
+      },
+      "dependencies": {
+        "@sqlite.org/sqlite-wasm": "^3.45.1",
+        "meyda": "^5.1.0",
+        "vexflow": "^4.0.5",
+        "pdfmake": "^0.2.9",
+        "jsmidgen": "^1.0.2"
+      },
+      "devDependencies": {
+        "vite": "^4.2.0",
+        "pkg": "^5.8.1"
+      },
+      "pkg": {
+        "scripts": "dist/*.js",
+        "assets": "dist/*",
+        "targets": [
+          "node18-win-x64",
+          "node18-linux-x64",
+          "node18-macos-x64"
+        ]
+      }
+    }

@@ -1,0 +1,29 @@
+body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    #tablatureOutput {
+      margin-top: 20px;
+      white-space: pre-wrap;
+      font-family: monospace;
+    }
+    #progressContainer {
+      width: 80%;
+      height: 10px;
+      background-color: #f0f0f0;
+      margin: 10px 0;
+    }
+    #progressBar {
+      height: 100%;
+      background-color: #4caf50;
+      width: 0;
+    }
+    #tablatureCanvas {
+      margin-top: 20px;
+    }
+    #controls {
+      margin-top: 10px;
+    }
